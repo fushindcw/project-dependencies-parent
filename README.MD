@@ -1,6 +1,6 @@
 # dingchw-dependencies-parent  
 ## pom.xml 依赖配置  
-``` 
+```xml 
 <dependencyManagement>
     <dependencies>
         <dependency>
