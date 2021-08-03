@@ -7,13 +7,13 @@
 	<name>dingchw-denpendencies-parent</name>
 
 	<properties>
-		<revision>1.0.2-SNAPSHOT</revision>
-		<spring.cloud-version>Hoxton.SR8</spring.cloud-version>
-		<spring.alibaba.cloud-version>2.2.1.RELEASE</spring.alibaba.cloud-version>
+		<revision>1.0.3</revision>
+		<spring.cloud-version>Hoxton.SR9</spring.cloud-version>
+		<spring.alibaba.cloud-version>2.2.6.RELEASE</spring.alibaba.cloud-version>
 		<springfox.version>3.0.0</springfox.version>
 		<flatten.version>1.2.5</flatten.version>
-		<spring.boot-version>2.2.1.RELEASE</spring.boot-version>
-		<dubbo.version>2.7.12</dubbo.version>
+		<spring.boot-version>2.3.2.RELEASE</spring.boot-version>
+		<dubbo.version>2.7.8</dubbo.version>
 
 		<plugin.deploy.version>2.8.2</plugin.deploy.version>
 		<plugin.compiler.version>3.8.1</plugin.compiler.version>
