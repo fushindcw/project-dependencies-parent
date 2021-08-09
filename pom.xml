@@ -8,6 +8,7 @@
 
 	<properties>
 		<revision>1.0.3</revision>
+		<micro-infrastructure.version>1.0.0</micro-infrastructure.version>
 		<spring.cloud-version>Hoxton.SR9</spring.cloud-version>
 		<spring.alibaba.cloud-version>2.2.6.RELEASE</spring.alibaba.cloud-version>
 		<springfox.version>3.0.0</springfox.version>
@@ -163,6 +164,16 @@
 				<artifactId>mockito-core</artifactId>
 				<version>2.28.2</version>
 				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.dingchw</groupId>
+				<artifactId>infrastructure-rest</artifactId>
+				<version>${micro-infrastructure.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.dingchw</groupId>
+				<artifactId>infrastructure-feign</artifactId>
+				<version>${micro-infrastructure.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
