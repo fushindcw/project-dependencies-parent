@@ -7,14 +7,15 @@
 	<name>dingchw-denpendencies-parent</name>
 
 	<properties>
-		<revision>1.0.4-SNAPSHOT</revision>
+		<revision>1.0.5-SNAPSHOT</revision>
 		<micro-infrastructure.version>1.0.0</micro-infrastructure.version>
-		<spring.cloud-version>Hoxton.SR9</spring.cloud-version>
-		<spring.alibaba.cloud-version>2.2.6.RELEASE</spring.alibaba.cloud-version>
-		<springfox.version>3.0.0</springfox.version>
+		<spring.cloud-version>Hoxton.SR12</spring.cloud-version>
+		<spring.alibaba.cloud-version>2.2.7.RELEASE</spring.alibaba.cloud-version>
+		<springdoc.version>1.6.3</springdoc.version>
 		<flatten.version>1.2.5</flatten.version>
-		<spring.boot-version>2.3.2.RELEASE</spring.boot-version>
-		<dubbo.version>2.7.13</dubbo.version>
+		<spring.boot-version>2.6.2</spring.boot-version>
+		<dubbo.version>3.0.5</dubbo.version>
+		<netty.version>4.1.72.Final</netty.version>
 
 		<plugin.deploy.version>2.8.2</plugin.deploy.version>
 		<plugin.compiler.version>3.8.1</plugin.compiler.version>
@@ -59,11 +60,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
 			<dependency>
-				<groupId>io.springfox</groupId>
-				<artifactId>springfox-boot-starter</artifactId>
-				<version>${springfox.version}</version>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-ui</artifactId>
+				<version>${springdoc.version}</version>
 			</dependency>
+
 			<dependency>
 				<groupId>org.apache.dubbo</groupId>
 				<artifactId>dubbo-dependencies-bom</artifactId>
@@ -83,6 +86,13 @@
 				<groupId>org.apache.dubbo</groupId>
 				<artifactId>dubbo-spring-boot-starter</artifactId>
 				<version>${dubbo.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-all</artifactId>
+				<version>${netty.version}</version>
 			</dependency>
 
 			<!-- plugins development -->
