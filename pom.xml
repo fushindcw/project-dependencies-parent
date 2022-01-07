@@ -9,8 +9,8 @@
 	<properties>
 		<revision>1.0.5-SNAPSHOT</revision>
 		<micro-infrastructure.version>1.0.0</micro-infrastructure.version>
-		<spring.cloud-version>Hoxton.SR12</spring.cloud-version>
-		<spring.alibaba.cloud-version>2.2.7.RELEASE</spring.alibaba.cloud-version>
+		<spring.cloud-version>2021.0.0</spring.cloud-version>
+		<spring.alibaba.cloud-version>2021.1</spring.alibaba.cloud-version>
 		<springdoc.version>1.6.3</springdoc.version>
 		<flatten.version>1.2.5</flatten.version>
 		<spring.boot-version>2.6.2</spring.boot-version>
