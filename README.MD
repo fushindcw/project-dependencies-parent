@@ -4,8 +4,8 @@
 <dependencyManagement>
     <dependencies>
         <dependency>
-            <groupId>com.ffty</groupId>
-            <artifactId>ffty-dependencies-parent</artifactId>
+            <groupId>com.fushindcw</groupId>
+            <artifactId>project-dependencies-parent</artifactId>
             <version>${dep.version}</version>
             <type>pom</type>
             <scope>import</scope>
