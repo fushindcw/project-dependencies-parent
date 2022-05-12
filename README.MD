@@ -1,4 +1,4 @@
-# ffty-dependencies-parent  
+# project-dependencies-parent  
 ## pom.xml 依赖配置  
 ```xml 
 <dependencyManagement>
